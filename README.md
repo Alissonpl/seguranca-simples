@@ -17,10 +17,9 @@ As principais tecnologias deste projeto:
 - [React](https://reactjs.org)
 
 Bibliotecas:
-
+- [JSON WEB TOKEN, JWT](https://www.npmjs.com/package/jsonwebtoken)
 - [Knex = sqlite](http://knexjs.org/)
 - [Axios](https://www.npmjs.com/package/axios)
-
 - [Helmet](https://www.npmjs.com/package/helmet)
 - [http] 
 - [cors](https://www.npmjs.com/package/cors)
