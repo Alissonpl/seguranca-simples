@@ -33,9 +33,9 @@ Bibliotecas:
 
 O projeto foi desenvolvido para um trabalho da disciplina de Segurança para Internet, com intuito de obter informação, aprendizado e para testar a segurança criada contra:
 
--SQL Injection
--Cross-site scripting
--Cross-site request forgery
--Cross-site history manipulation
+- SQL Injection
+- Cross-site scripting
+- Cross-site request forgery
+- Cross-site history manipulation
 
 ---
