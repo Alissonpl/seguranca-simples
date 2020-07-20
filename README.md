@@ -31,6 +31,11 @@ Bibliotecas:
 
 ## 💻 Projeto
 
-O projeto foi desenvolvido com intuito de obter infomação e apredizado sobre as tecnologias citadas acima. Programado um CRUD simples de produto, Create (Criação), Read (Consulta), Update (Atualização) e Delete (Destruição).
+O projeto foi desenvolvido para um trabalho da disciplina de Segurança para Internet, com intuito de obter informação, aprendizado e para testar a segurança criada contra:
+
+-SQL Injection
+-Cross-site scripting
+-Cross-site request forgery
+-Cross-site history manipulation
 
 ---
