@@ -38,4 +38,6 @@ O projeto foi desenvolvido para um trabalho da disciplina de Segurança para Int
 - Cross-site request forgery
 - Cross-site history manipulation
 
+OBS.: A aplicação não foi criada com intuito de ser visualmente intuitiva ou bonita.
+
 ---
