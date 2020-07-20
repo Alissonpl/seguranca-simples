@@ -9,18 +9,26 @@
 
 <br>
 
-<p align="center">
-  <img alt="Produto" src="https://github.com/Alissonpl/simples-crud-1/blob/master/Captura%20de%20ecr%C3%A3%20de%202020-05-25%2016-46-08.png" width="100%">
-</p>
-
 ## :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+As principais tecnologias deste projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
+
+Bibliotecas:
+
 - [Knex = sqlite](http://knexjs.org/)
 - [Axios](https://www.npmjs.com/package/axios)
+
+- [Helmet](https://www.npmjs.com/package/helmet)
+- [http] 
+- [cors](https://www.npmjs.com/package/cors)
+- [bodyParser](https://www.npmjs.com/package/body-parser)
+- [cookieSession](https://www.npmjs.com/package/cookie-session)
+- [cookieParser](https://www.npmjs.com/package/cookie-parser)
+
+
 
 ## 💻 Projeto
 
