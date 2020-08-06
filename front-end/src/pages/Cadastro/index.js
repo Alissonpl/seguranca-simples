@@ -9,9 +9,7 @@ export default function NewCad(){
   const [email, setEmail] = useState('');
   const [experiencia, setExperiencia] = useState('');
   const token = localStorage.getItem('x-acess-token');
-  //const ongId = localStorage.getItem('ongId');
-
-  console.log(token);
+  
   const history = useHistory();
   async function handleNewIncident(e){
     e.preventDefault();

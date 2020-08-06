@@ -9,12 +9,13 @@ export default function Logon() {
 const token = localStorage.getItem('x-acess-token');
   const id = localStorage.getItem('id');
   
-   console.log(token);
 
 try {
   
   useEffect(() => {
-    api.post('/listaum', {id: id}).then((response) => {
+    api.post('/listaum', {id: id}, {headers: {
+      token: token
+  }}).then((response) => {
       setCurriculo(response.data);
     });
     localStorage.removeItem('id');
@@ -24,9 +25,7 @@ try {
  
   alert("errou");
 }
-    
   
-  //console.log(localStorage.getItem('id'));
 
 
   return (

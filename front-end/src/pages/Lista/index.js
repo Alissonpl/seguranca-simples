@@ -6,9 +6,12 @@ import api from "../../services/api";
 export default function Logon() {
   const history = useHistory();
   const [curriculo, setCurriculo] = useState([]);
-
+  const token = localStorage.getItem('x-acess-token');
+  
   useEffect(() => {
-    api.get("/lista").then((response) => {
+    api.get("/lista", {headers: {
+      token: token
+  }}).then((response) => {
       setCurriculo(response.data);
     });
   }, [curriculo]);
