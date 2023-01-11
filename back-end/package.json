@@ -16,7 +16,7 @@
     "init": "^0.1.2",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.21.1",
+    "knex": "^2.4.0",
     "rate-limiter-flexible": "^2.1.7",
     "routes": "^2.1.0",
     "sqlite3": "^4.2.0"
